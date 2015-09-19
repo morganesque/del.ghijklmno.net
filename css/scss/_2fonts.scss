@@ -1,0 +1,103 @@
+body {
+    font-size:16px;
+    line-height:1.5em;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal;  
+    font-weight:300;  
+}
+
+p {
+    margin-bottom:1em;
+}
+
+strong {
+    color:#fff;
+    font-weight:700;
+}
+
+.note {
+    font-size:90%;
+    opacity:0.7;
+}
+
+@mixin typkitfont {
+//    font-family:"abril-fatface" Georgia serif;
+}
+
+/* - - - - H1 - ALPHA - - - - */
+
+@mixin fontAlpha {
+    font-size:56px; font-size:3.5rem; /* 56/16 */
+    font-style:normal;
+    font-weight:300;    
+    margin:0.2em 0 0.4em 0;
+    line-height:1; /* 48 */    
+    text-transform:uppercase;
+//    @include typkitfont();
+}
+
+h1, .alpha {
+    @include fontAlpha;
+}
+
+/* - - - - H2 - BETA - - - - */
+
+@mixin fontBeta {
+    font-size:32px; font-size:2rem; /* 32/16 */
+    font-style:normal;
+    font-weight:400;
+    margin-bottom:.6em; /* 24/40 */
+    line-height:1.2em; /* 48/40 */ 
+    text-transform:uppercase;
+//    @include typkitfont();   
+}
+
+h2, .beta {
+    @include fontBeta;
+}
+
+/* - - - - H3 - GAMMA - - - - */
+
+@mixin fontGamma {
+    font-size:20px; /*font-size:1.5rem; /* 24/16 */
+    font-style:normal;
+    font-weight:400;
+    margin-bottom:.75em; /* 24/32 */
+    line-height:1.5em; /* 48/32 */    
+    text-transform:uppercase;
+}
+
+h3, .gamma {  
+    @include fontGamma;
+}
+
+/* - - - - DELTA - - - - */
+
+@mixin fontDelta {
+    font-size:24px; font-size:1.5rem; /* 32/16 */
+    font-style:normal;
+    font-weight:400;
+    margin-bottom:1em; /* 24/24 */
+    line-height:1; /* 24/24 */        
+}
+
+h4,.delta   {
+    @include fontDelta;
+}
+
+/* - - - - EPSILON - - - - */
+
+@mixin fontEpsilon {
+    font-size:14px; font-size:.875rem; /* 14/16 */
+    font-style:normal;
+    font-weight:400;
+    margin-bottom:1em; /* 24 */
+    line-height:1; /* 24 */    
+}
+h5,.epsilon {
+    @include fontEpsilon;
+}
+
+h6,.zeta    {
+    
+}

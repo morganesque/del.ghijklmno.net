@@ -1,0 +1,39 @@
+
+// Really small rulesets that are very specific.
+
+.box {
+    background-color:rgba(0,0,0,0.1);
+    padding:1em 5%;
+    margin-bottom:1em;
+}
+
+.keysquare {
+    display:inline-block;
+    height:1em;
+    width:1em;
+    margin-right:0.5em;
+    background:red;
+}
+
+.red {background-color:#EE4244;}
+.ora {background-color:#FCB040}
+.yel {background-color:#D6E036}
+.grn {background-color:#88C540}
+.lig {background-color:#7AC577}
+.cyn {background-color:#79CFDF}
+.blu {background-color:#5682C2}
+.dkb {background-color:#5D5AA8}
+.pur {background-color:#A15BA4}
+.pnk {background-color:#EA4E9C}
+.blk {background-color:#000000}
+
+
+.wide {
+    p {
+        margin:0 5% 1em;
+    }
+}
+
+.graph {
+    margin-bottom:1em;
+}

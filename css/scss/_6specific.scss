@@ -1,0 +1,77 @@
+
+// Here we actually start to build particular things like navs, image galleries etc.
+
+.tags-usage {
+    position:relative;
+    width:575px;
+    height:113px;
+    background: transparent url('../../img/tags-usage.png') no-repeat scroll left top;
+}
+
+.top-tags {
+    background: rgba(0,0,0,0.1) url('../../img/tag-pie.png') no-repeat scroll right top;
+}
+
+.top-bookmarks {
+    ol {
+        width:50%;
+        float:left;
+        margin:0; padding:0;
+    }
+}
+
+.tagsbymonth {
+    width:640px;
+    height:188px;
+    background: transparent url('../../img/tagsbymonth-all.png') no-repeat scroll left top;
+}
+.tags-web-design {
+    width:640px;
+    height:188px;
+    background: transparent url('../../img/tagsbymonth-web_design.png') no-repeat scroll left top;
+}
+
+.tags-flash-as3 {
+    width:640px;
+    height:188px;
+    background: transparent url('../../img/tagsbymonth-flash-as3.png') no-repeat scroll left top;
+}
+
+.tags-how-inspr {
+    width:640px;
+    height:188px;
+    background: transparent url('../../img/tagsbymonth-how-inspr.png') no-repeat scroll left top;
+}
+
+.all-tags {
+    width:640px;
+    height:101px;
+    background: transparent url('../../img/all-tagsbymonth-all.png') no-repeat scroll left top;
+}
+
+.desc-wordle {
+    width:640px;
+    height:245px;
+    background: transparent url('../../img/description-wordle.png') no-repeat scroll left top;
+}
+
+.key {
+    padding:1em;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+
+
+.url-codes {
+    background: rgba(0,0,0,0.1) url('../../img/codes-pie.png') no-repeat scroll right top;
+}
+.url-codes-again {
+    background: rgba(0,0,0,0.1) url('../../img/codes-pie2.png') no-repeat scroll right top;
+}
+
+.footer {
+    margin-top:3em;
+    border-top:1px solid rgba(255,255,255,0.42);;
+    font-size:0.76em;
+}

@@ -1,0 +1,40 @@
+
+// Begin styling elements like headings, paragraphs, tables, lists etc. No classes. 
+body {
+    background: transparent url('../../img/back.png') repeat scroll left top;
+    color:rgba(255,255,255,0.76);
+}
+
+.main {
+    margin:0 auto;
+    width:640px;
+    padding:0;
+}
+
+header, section {
+    padding:2em 5%;
+}
+
+header {
+    background-color:rgba(0,0,0,0.3);;
+    padding-bottom:1em;
+}
+
+a:link,
+a:visited {
+    color:#fff;
+}
+
+a:hover,
+a:active {
+    color:#FAC90F;
+}
+
+ul, ol {
+    list-style:none;
+    margin-bottom:1em;
+}
+
+li {
+    vertical-align:top;
+}
